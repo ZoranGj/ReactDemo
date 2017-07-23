@@ -7,6 +7,15 @@
     "gulp-concat": "2.6.1",
     "gulp-cssmin": "0.1.7",
     "gulp-uglify": "2.0.1",
-    "rimraf": "2.6.1"
+    "rimraf": "2.6.1",
+    "react": "0.14.6",
+    "react-bootstrap": "0.28.2",
+    "react-dom": "^0.14.3",
+    "react-redux": "4.0.6",
+    "react-router": "1.0.3",
+    "react-tap-event-plugin": "0.2.1",
+    "react-google-maps": "^4.7.2",
+    "redux": "3.0.5",
+    "redux-devtools": "^3.0.1",
   }
 }
