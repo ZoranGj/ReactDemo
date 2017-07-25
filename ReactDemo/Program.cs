@@ -1,12 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Web
+namespace ReactDemo
 {
     public class Program
     {
@@ -17,7 +16,6 @@ namespace Web
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
-                .UseApplicationInsights()
                 .Build();
 
             host.Run();
